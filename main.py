@@ -50,9 +50,7 @@ def main(_argv):
     #   Debug_flag = 0
 
     # Load saved CV model
-    print('loading')
     model = get_model()
-    print('loaded')
 
     # Initialize Algorithm
     oldCords = None
