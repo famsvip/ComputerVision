@@ -13,6 +13,11 @@ import pandas as pd
 import seaborn
 import numpy as np
 
+# M1 SSL Fix to load 
+# torch model
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
+
 matplotlib.use('TKAgg')
 # Disable tensorflow output
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
