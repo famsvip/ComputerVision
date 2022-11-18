@@ -2,7 +2,7 @@ import torch
 
 # Model
 def get_model():
-    model = torch.hub.load('ultralytics/yolov5', 'custom', path='./Algorithm/pt_files/best.pt')  # or yolov5m, yolov5l, yolov5x, custom
+    model = torch.hub.load('ultralytics/yolov5', 'custom', path='./Algorithm/pt_files/best.pt', force_reload=True)  # or yolov5m, yolov5l, yolov5x, custom
     return model
 
 # Returns coordinates
