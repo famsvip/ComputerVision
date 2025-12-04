@@ -1,0 +1,6 @@
+Defaulting to user installation because normal site-packages is not writeable
+Collecting opencv-python-headless
+  Using cached opencv_python_headless-4.10.0.84-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (49.9 MB)
+Requirement already satisfied: numpy>=1.21.2 in /home/justin/.local/lib/python3.10/site-packages (from opencv-python-headless) (1.26.4)
+Installing collected packages: opencv-python-headless
+Successfully installed opencv-python-headless-4.10.0.84
